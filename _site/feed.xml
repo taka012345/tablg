@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/tablg/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tablg/" rel="alternate" type="text/html" /><updated>2024-11-03T17:01:51+09:00</updated><id>http://localhost:4000/tablg/feed.xml</id><title type="html">My Custom Blog</title><subtitle>A simple custom blog created with Jekyll</subtitle><entry><title type="html">jekyllによるサイト運営</title><link href="http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="jekyllによるサイト運営" /><published>2024-11-03T01:53:04+09:00</published><updated>2024-11-03T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll-copy.html"><![CDATA[<h3 id="jekyllでサイトを作る">jekyllでサイトを作る</h3>
+<p>jekyllとはrubyで書かれた静的サイトジェネレーター。これにより文章をより簡単に書くことができるようになりました。文章はmarkdown記法が可能です。</p>
+
+<p>iPhoneのメモでも使える記入方法です。</p>
+
+<p>例えば）</p>
+
+<p>iPhoneメモで「*」→「スペース」を入力すると「・」が出現します。</p>
+<ul>
+  <li>←これです。</li>
+  <li>これを使うと箇条書きが簡単です</li>
+  <li>２行目から自動で「・」を作成してくれます</li>
+</ul>
+
+<p>これは<code class="language-plaintext highlighter-rouge">こーど</code>です
+これは <code class="language-plaintext highlighter-rouge">インラインコード</code> です。
+これは <code>インラインコード</code> です。</p>
+
+<p><u>アンダバー</u></p>
+
+<h2 id="markdown記法">markdown記法</h2>
+
+<p>見出し</p>
+
+<ul>
+  <li>
+    <p>#</p>
+  </li>
+  <li>
+    <p>##</p>
+  </li>
+  <li>
+    <p>#の後に半角スペース</p>
+  </li>
+</ul>
+
+<p>改行</p>
+
+<ul>
+  <li>
+    <p>&lt; br &gt;</p>
+  </li>
+  <li>
+    <p>または半角スペース2つ</p>
+  </li>
+</ul>
+
+<p>斜体</p>
+
+<ul>
+  <li>*で文字を囲む</li>
+</ul>
+
+<p>太字</p>
+
+<ul>
+  <li>**で文字を囲む</li>
+</ul>
+
+<p>斜体かつ太字</p>
+
+<ul>
+  <li>***で文字を囲む</li>
+</ul>
+
+<p>箇条書き</p>
+
+<ul>
+  <li>
+    <p>*箇条書き1</p>
+  </li>
+  <li>
+    <p>箇条書きする文章の頭に*を付ける</p>
+  </li>
+</ul>
+
+<p>水平線</p>
+
+<ul>
+  <li>
+    <p>*を３つ</p>
+  </li>
+  <li>
+    <p>-（ハイフン）</p>
+  </li>
+  <li>
+    <p>_（アンダーバー）</p>
+  </li>
+  <li>
+    <p>どの記号を使用しても良い</p>
+  </li>
+</ul>
+
+<p>リンクの挿入</p>
+
+<ul>
+  <li><a href="リンク先の URL">テキスト </a></li>
+</ul>
+
+<p>画像の挿入</p>
+
+<ul>
+  <li>! [ 代替テキスト ] (画像URL )</li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[jekyllでサイトを作る jekyllとはrubyで書かれた静的サイトジェネレーター。これにより文章をより簡単に書くことができるようになりました。文章はmarkdown記法が可能です。]]></summary></entry><entry><title type="html">jekyll,minimaの編集方法</title><link href="http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="jekyll,minimaの編集方法" /><published>2024-10-28T01:53:04+09:00</published><updated>2024-10-28T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll.html"><![CDATA[<h3 id="minimaで出来上がったサイトを編集するには">minimaで出来上がったサイトを編集するには</h3>
+<ul>
+  <li>いくつかのファイルを作成、編集する必要がある
+    <ul>
+      <li>ルートディレクトリにフォルダ、ファイルを追加する
+        <ul>
+          <li>_layouts(フォルダ)
+            <ul>
+              <li>default.html</li>
+              <li>post.html</li>
+            </ul>
+          </li>
+          <li>assets/css（フォルダ）
+            <ul>
+              <li>styles.css</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>index.markdownの編集</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[minimaで出来上がったサイトを編集するには いくつかのファイルを作成、編集する必要がある ルートディレクトリにフォルダ、ファイルを追加する _layouts(フォルダ) default.html post.html assets/css（フォルダ） styles.css index.markdownの編集]]></summary></entry><entry><title type="html">memo</title><link href="http://localhost:4000/tablg/2024/10/27/welcome.html" rel="alternate" type="text/html" title="memo" /><published>2024-10-27T01:53:03+09:00</published><updated>2024-10-27T01:53:03+09:00</updated><id>http://localhost:4000/tablg/2024/10/27/welcome</id><content type="html" xml:base="http://localhost:4000/tablg/2024/10/27/welcome.html"><![CDATA[<p>目次</p>
+<ul id="markdown-toc">
+  <li><a href="#macにjekyllをインストールする方法" id="markdown-toc-macにjekyllをインストールする方法">macにjekyllをインストールする方法</a></li>
+  <li><a href="#若い人は短く分かりやすく簡単な言葉を使う" id="markdown-toc-若い人は短く分かりやすく簡単な言葉を使う">若い人は短く、分かりやすく、簡単な言葉を使う</a></li>
+  <li><a href="#macの用語" id="markdown-toc-macの用語">macの用語</a></li>
+  <li><a href="#finderでルートディレクトリにアクセスする方法" id="markdown-toc-finderでルートディレクトリにアクセスする方法">Finderでルートディレクトリにアクセスする方法</a></li>
+  <li><a href="#用語" id="markdown-toc-用語">用語</a></li>
+  <li><a href="#githubでサイト公開する" id="markdown-toc-githubでサイト公開する">Githubでサイト公開する</a></li>
+  <li><a href="#jekyll" id="markdown-toc-jekyll">jekyll</a></li>
+  <li><a href="#githubで公開する方法" id="markdown-toc-githubで公開する方法">githubで公開する方法</a></li>
+</ul>
+
+<h2 id="macにjekyllをインストールする方法">macにjekyllをインストールする方法</h2>
+<ol>
+  <li>ターミナルを開く：
+    <ul>
+      <li>アプリケーション → ユーティリティ → ターミナル を選択します。</li>
+    </ul>
+  </li>
+  <li>Homebrewのインストール：
+    <ul>
+      <li>次のコマンドをターミナルに入力します：bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”</li>
+      <li></li>
+      <li>インストール中に「Press RETURN/ENTER to continue」と表示されたら、Enterキーを押します。</li>
+      <li>Xcodeのライセンスに同意する必要がある場合は、次のコマンドを実行します：sudo xcodebuild -license</li>
+      <li></li>
+      <li>スペースキーでスクロールし、最後に「agree」と入力してライセンスに同意します。</li>
+    </ul>
+  </li>
+  <li>Homebrewのバージョン確認：
+    <ul>
+      <li>インストールが完了したら、次のコマンドでバージョンを確認します：brew -v</li>
+      <li></li>
+    </ul>
+  </li>
+  <li>Jekyllのインストール：
+    <ul>
+      <li>Homebrewが正しくインストールされたら、次のコマンドでRubyをインストールします：brew install ruby</li>
+      <li>その後、JekyllとBundlerをインストールします：gem install bundler jekyll</li>
+    </ul>
+  </li>
+  <li>インストール確認：
+    <ul>
+      <li>Jekyllのインストールが完了したら、以下のコマンドでバージョンを確認します：jekyll -v</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="若い人は短く分かりやすく簡単な言葉を使う">若い人は短く、分かりやすく、簡単な言葉を使う</h2>
+<ul>
+  <li>例え：やば、り、うぃーす</li>
+  <li>ある意味最も優れたコミュニケーション<br />
+<br /></li>
+</ul>
+
+<h2 id="macの用語">macの用語</h2>
+<ul>
+  <li>ディレクトリ
+    <ul>
+      <li>フォルダ=ディレクトリ</li>
+      <li>macではフォルダをディレクトリと呼ぶ<br />
+<br /></li>
+    </ul>
+  </li>
+  <li>ホームディレクトリ
+    <ul>
+      <li>ホームの上にあるメニューバー「移動」、「ホーム」を選択
+        <ul>
+          <li>ホームディレクトリが表示される</li>
+        </ul>
+      </li>
+      <li>デスクトップにはない</li>
+      <li>デスクトップはホームディレクトリ内のディレクトリ<br />
+<br /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="finderでルートディレクトリにアクセスする方法">Finderでルートディレクトリにアクセスする方法</h2>
+<ol>
+  <li>Finderを開きます。</li>
+  <li>メニューバーの「移動」をクリック。</li>
+  <li>「フォルダへ移動」を選択。</li>
+  <li>表示されたウィンドウに / と入力して「移動」をクリック。</li>
+</ol>
+
+<h2 id="用語">用語</h2>
+<ul>
+  <li>パソコン用語のルートとは
+    <ul>
+      <li>ほぼ全ての操作可能な権限</li>
+      <li>rootと書く<br />
+<br /></li>
+    </ul>
+  </li>
+  <li>ルートディレクトリ
+    <ul>
+      <li>最上層のディレクトリ</li>
+      <li>デスクトップ上には表示されない</li>
+      <li>ただFinderで確認可能</li>
+      <li>システムファイルなので触らないほうがいい<br />
+<br /></li>
+    </ul>
+  </li>
+  <li>エディタ
+    <ul>
+      <li>データを編集するソフト<br />
+<br /></li>
+    </ul>
+  </li>
+  <li>ターミナル
+    <ul>
+      <li>コンピューターの設定、ファイル操作のできるソフト
+        <ul>
+          <li>pwd
+            <ul>
+              <li>作業中のディレクトリの位置を表示</li>
+            </ul>
+          </li>
+          <li>ls
+            <ul>
+              <li>ファイルやディレクトリの一覧を表示</li>
+            </ul>
+          </li>
+          <li>エスケープ
+            <ul>
+              <li>抜ける、脱出する</li>
+            </ul>
+          </li>
+          <li>nano
+            <ul>
+              <li>⌘,sで保存</li>
+              <li>⌘,wで終了</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>因果関係</p>
+<ul>
+  <li>原因とそれによって生じる結果</li>
+  <li>「因」と「果」
+相関関係</li>
+  <li>変数間に関係が見れるが、偶然かもだし、要員があるかもしれない
+    <ul>
+      <li>変数間とは
+        <ul>
+          <li>例え：身長と体重は異なる変数</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>メタデータ</p>
+<ul>
+  <li>データの中のデータ</li>
+  <li>例え：写真の解像度や大きさなどのデータ</li>
+</ul>
+
+<p>ビルド</p>
+<ul>
+  <li>構築する</li>
+</ul>
+
+<p>index</p>
+<ul>
+  <li>指標、見出し、索引</li>
+  <li>データを高速化する索引データ</li>
+</ul>
+
+<p>リポジトリ</p>
+<ul>
+  <li>貯蔵庫、倉庫</li>
+</ul>
+
+<p>ジェネレーター</p>
+<ul>
+  <li>自動的にコードやコンテンツを生成する仕組み</li>
+</ul>
+
+<p>パッケージ</p>
+<ul>
+  <li>商品、デザイン</li>
+</ul>
+
+<p>ライブラリ</p>
+<ul>
+  <li>資料</li>
+</ul>
+
+<p>gem</p>
+<ul>
+  <li>Rudyのパッケージやライブラリ</li>
+</ul>
+
+<p>bundler</p>
+<ul>
+  <li>Rugyのライブラリやgemの依存関係を管理するツール</li>
+</ul>
+
+<p>プロパティ</p>
+<ul>
+  <li>スタイルを指定するための名前</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="githubでサイト公開する">Githubでサイト公開する</h2>
+<ul>
+  <li>ルートディレクトリの中身をアップロード</li>
+  <li>セッティング、ページと進むと公開されている
+    <ul>
+      <li>もし表示されていない場合には、「Branch」の項目が「None」となっていると思いますので、これをデフォルトブランチ（リポジトリが作成された時期に応じて、「master」または「main」）に変更して「Save」ボタンを押すことでURLが表示されます。<br />
+<br /></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="jekyll">jekyll</h2>
+<ul>
+  <li>Rudyのライブラリとして動作する静的ジェネレーター</li>
+  <li>デスクトップにアイコンは表示されない</li>
+  <li>Rudyのgemとしてインストールされる</li>
+  <li>ターミナルからコマンドを実行する</li>
+  <li>再起動
+    <ul>
+      <li>ターミナルを開く</li>
+      <li>cd ~/Desktop/markdown\ -\ blogと入力で停止</li>
+      <li>jekyll serveで再起動</li>
+    </ul>
+  </li>
+  <li>サイトの作り方
+    <ul>
+      <li>デスクトップにファイル作成
+        <ul>
+          <li>ファイルの中
+            <ul>
+              <li>index.md</li>
+              <li>_layouts
+                <ul>
+                  <li>default.html</li>
+                </ul>
+              </li>
+              <li>assets
+                <ul>
+                  <li>css
+                    <ul>
+                      <li>style.css</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>それぞれにコード入力</li>
+    </ul>
+  </li>
+  <li>ローカルでのサイト確認方法
+    <ul>
+      <li>ターミナルを開く</li>
+      <li>cd ~/“ファイルのある場所”を入力してファイルに移動</li>
+      <li>jekyll buildと入力してビルド確認</li>
+      <li>jekyll serveでサーバー起動</li>
+      <li>http://127.0.0.1:4000をブラウザで入力して確認</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="githubで公開する方法">githubで公開する方法</h2>
+<ul>
+  <li>_config.ymlファイルを編集
+    <ul>
+      <li>baseurl: “ /jk “     リポジトリ名を入力</li>
+      <li>url: “https://taka012345.github.io”  GitHubユーザー名を入力</li>
+    </ul>
+  </li>
+</ul>
+
+<p>_config.ymlを編集</p>
+<ul>
+  <li>反映
+    <ul>
+      <li>jekyllを再起動する必要がある</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[目次]]></summary></entry></feed>

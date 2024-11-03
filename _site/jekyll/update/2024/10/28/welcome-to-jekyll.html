@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jekyll,minimaの編集方法 - My Custom Blog</title>
+  <link rel="stylesheet" href="/tablg/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="/tablg/">tablg</a>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="/tablg/about/">About</a></li>
+          <li><a href="#" id="memo-toggle">Memo</a>
+            <ul id="memo-menu" style="display: none;">
+              <li><a href="#">November</a></li>
+              <li><a href="#">October</a></li>
+              <li><a href="#">March</a></li>
+              <!-- 必要な月を追加 -->
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr>
+  <main class="container">
+    <article>
+  <h1 class="post-title">jekyll,minimaの編集方法</h1>
+  <p><small>更新日：2024-10-28</small></p>
+  <hr>
+  <div>
+    <h3 id="minimaで出来上がったサイトを編集するには">minimaで出来上がったサイトを編集するには</h3>
+<ul>
+  <li>いくつかのファイルを作成、編集する必要がある
+    <ul>
+      <li>ルートディレクトリにフォルダ、ファイルを追加する
+        <ul>
+          <li>_layouts(フォルダ)
+            <ul>
+              <li>default.html</li>
+              <li>post.html</li>
+            </ul>
+          </li>
+          <li>assets/css（フォルダ）
+            <ul>
+              <li>styles.css</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>index.markdownの編集</li>
+    </ul>
+  </li>
+</ul>
+
+
+  </div>
+</article>
+
+  </main>
+  <footer class="container">
+    <p>&copy; 2024 My Custom Blog</p>
+  </footer>
+  <script src="/js/memoMenu.js"></script>
+</body>
+</html>
