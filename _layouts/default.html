@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="{{ '/' | relative_url }}">tablg</a>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+          <li><a href="#" id="memo-toggle">Memo</a>
+            <ul id="memo-menu" style="display: none;">
+              <li><a href="#">November</a></li>
+              <li><a href="#">October</a></li>
+              <li><a href="#">March</a></li>
+              <!-- 必要な月を追加 -->
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr>
+  <main class="container">
+    {{ content }}
+  </main>
+  <footer class="container">
+    <p>&copy; {{ site.time | date: "%Y" }} My Custom Blog</p>
+  </footer>
+  <script src="/js/memoMenu.js"></script>
+</body>
+</html>
