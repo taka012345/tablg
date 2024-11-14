@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://taka012345.github.io/tablg/</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/about/</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/13/saisido.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/11/yaruki.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/02/welcome-to-jekyll-copy.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/01/welcome-to-jekyll.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/10/31/jekyll.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/10/27/welcome-to-jekyll.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://taka012345.github.io/tablg/2024/10/26/welcome.html</loc>
+  <lastmod>2024-11-14T17:06:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
