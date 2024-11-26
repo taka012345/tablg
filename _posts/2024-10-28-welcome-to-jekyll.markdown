@@ -4,7 +4,11 @@ title:  "jekyll,minimaの編集方法、ターミナル基本コマンド"
 date:   2024-10-28 01:53:04 +0900
 categories: jekyll update
 ---
-### minimaで出来上がったサイトを編集するには
+**目次**
+* TOC
+{:toc}
+
+## minimaで出来上がったサイトを編集するには
 * いくつかのファイルを作成、編集する必要がある
   * ルートディレクトリにフォルダ、ファイルを追加する
     * _layouts(フォルダ)
@@ -13,6 +17,8 @@ categories: jekyll update
     * assets/css（フォルダ）
       * styles.css
   * index.markdownの編集
+
+<br>
 
 ## ターミナル操作
 
@@ -39,3 +45,4 @@ categories: jekyll update
 ヘルプ
 * man [コマンド名]: 指定したコマンドのマニュアルを表示する（例：man ls）。
 
+<br>

@@ -4,7 +4,11 @@ title:  "jekyllによるサイト運営"
 date:   2024-11-03 01:53:04 +0900
 categories: jekyll update
 ---
-### jekyllでサイトを作る
+**目次**
+* TOC
+{:toc}
+
+## jekyllでサイトを作る
 jekyllとはrubyで書かれた静的サイトジェネレーター。これにより文章をより簡単に書くことができるようになりました。文章はmarkdown記法が可能です。
 
 iPhoneのメモでも使える記入方法です。
