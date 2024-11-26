@@ -31,10 +31,13 @@ permalink: /memo/october/
 5. インストール確認：
     * Jekyllのインストールが完了したら、以下のコマンドでバージョンを確認します：jekyll -v
 
+<br>
+
 
 ## 若い人は短く、分かりやすく、簡単な言葉を使う
   * 例え：やば、り、うぃーす
   * ある意味最も優れたコミュニケーション  
+
 <br> 
 
 
@@ -55,6 +58,8 @@ permalink: /memo/october/
   2. メニューバーの「移動」をクリック。
   3. 「フォルダへ移動」を選択。
   4. 表示されたウィンドウに / と入力して「移動」をクリック。
+
+<br>
 
 ## 用語
 * パソコン用語のルートとは
@@ -159,6 +164,8 @@ bundler
     * jekyll serveでサーバー起動
     * http://127.0.0.1:4000をブラウザで入力して確認
 
+<br>
+
 ## githubで公開する方法
 * _config.ymlファイルを編集
     * baseurl: " /jk "     リポジトリ名を入力
@@ -167,6 +174,8 @@ bundler
 _config.ymlを編集
 * 反映
     * jekyllを再起動する必要がある
+
+<br>
 
 ## GoogleSearchConsoleの所有権の確認方法
 * GoogleSearchConsoleを開く
