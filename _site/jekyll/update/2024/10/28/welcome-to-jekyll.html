@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jekyll,minimaの編集方法 - My Custom Blog</title>
+  <title>jekyll,minimaの編集方法、ターミナル基本コマンド - My Custom Blog</title>
   <link rel="stylesheet" href="/tablg/assets/css/styles.css">
 </head>
 <body>
@@ -15,12 +15,11 @@
       <nav class="header-right">
         <ul>
           <li><a href="/tablg/about/">About</a></li>
-          <li><a href="#" id="memo-toggle">Memo</a>
+          <li><a href="javascript:void(0)" id="memo-toggle">Memo</a>
             <ul id="memo-menu" style="display: none;">
-              <li><a href="#">November</a></li>
-              <li><a href="#">October</a></li>
-              <li><a href="#">March</a></li>
-              <!-- 必要な月を追加 -->
+              <li>2024</li>
+              <li><a href="/tablg/memo/november/">November</a></li>
+              <li><a href="/tablg/memo/october/">October</a></li>
             </ul>
           </li>
         </ul>
@@ -30,7 +29,7 @@
   <hr>
   <main class="container">
     <article>
-  <h1 class="post-title">jekyll,minimaの編集方法</h1>
+  <h1 class="post-title">jekyll,minimaの編集方法、ターミナル基本コマンド</h1>
   <p><small>更新日：2024-10-28</small></p>
   <hr>
   <div>
@@ -58,6 +57,33 @@
   </li>
 </ul>
 
+<h2 id="ターミナル操作">ターミナル操作</h2>
+
+<p>ターミナル基本コマンド</p>
+<ul>
+  <li>pwd: 現在のディレクトリ（フォルダ）のパスを表示する。</li>
+  <li>ls: 現在のディレクトリ内のファイルとフォルダのリストを表示する。</li>
+  <li>cd [ディレクトリ名]: 指定したディレクトリに移動する（例：cd Documents）。</li>
+  <li>mkdir [フォルダ名]: 新しいフォルダを作成する（例：mkdir new_folder）。</li>
+  <li>rmdir [フォルダ名]: 空のフォルダを削除する。</li>
+  <li>rm [ファイル名]: 指定したファイルを削除する（例：rm file.txt）。</li>
+  <li>rm -r [フォルダ名]: 指定したフォルダとその中のすべてのファイルを削除する。</li>
+  <li>cp [元ファイル] [コピー先]: ファイルをコピーする（例：cp file.txt backup.txt）。</li>
+  <li>mv [元ファイル] [新しい名前]: ファイルの名前を変更または移動する（例：mv oldname.txt newname.txt）。</li>
+  <li>open [ファイル名]: 指定したファイルをデフォルトのアプリケーションで開く（例：open document.pdf）。</li>
+  <li>nano [ファイル名]: 指定したファイルをnanoエディタで開く（例：nano myfile.txt）。</li>
+  <li>clear: ターミナル画面をクリアする。
+システム情報</li>
+  <li>top: システムのプロセスやリソース使用状況を表示する。</li>
+  <li>df -h: ディスクの使用状況を表示する。</li>
+  <li>du -sh [ディレクトリ名]: 指定したディレクトリのサイズを表示する（例：du -sh Documents）。
+ネットワーク</li>
+  <li>ping [ホスト名]: 指定したホストへの接続をテストする（例：ping google.com）。</li>
+  <li>curl [URL]: 指定したURLの内容を取得する（例：curl https://example.com）。
+ヘルプ</li>
+  <li>man [コマンド名]: 指定したコマンドのマニュアルを表示する（例：man ls）。</li>
+</ul>
+
 
   </div>
 </article>
@@ -66,6 +92,6 @@
   <footer class="container">
     <p>&copy; 2024 My Custom Blog</p>
   </footer>
-  <script src="/js/memoMenu.js"></script>
+  <script src="/tablg/js/memoMenu.js"></script>
 </body>
 </html>

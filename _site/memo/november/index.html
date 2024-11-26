@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024 November - My Custom Blog</title>
+  <link rel="stylesheet" href="/tablg/assets/css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="/tablg/">tablg</a>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="/tablg/about/">About</a></li>
+          <li><a href="javascript:void(0)" id="memo-toggle">Memo</a>
+            <ul id="memo-menu" style="display: none;">
+              <li>2024</li>
+              <li><a href="/tablg/memo/november/">November</a></li>
+              <li><a href="/tablg/memo/october/">October</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr>
+  <main class="container">
+    <p>※このページは開発者向けのMemoです</p>
+
+<p><strong>目次</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#やっぱり猫の様に生きることにした" id="markdown-toc-やっぱり猫の様に生きることにした">やっぱり猫の様に生きることにした</a></li>
+  <li><a href="#忙しく活くることも違った" id="markdown-toc-忙しく活くることも違った">忙しく活くることも違った</a></li>
+  <li><a href="#猫の様に生きるのは合わなかった" id="markdown-toc-猫の様に生きるのは合わなかった">猫の様に生きるのは合わなかった</a></li>
+  <li><a href="#jekyllで新しいファイルを作成した時にリンクさせる方法" id="markdown-toc-jekyllで新しいファイルを作成した時にリンクさせる方法">jekyllで新しいファイルを作成した時にリンクさせる方法</a></li>
+  <li><a href="#絶対パス相対パス" id="markdown-toc-絶対パス相対パス">絶対パス、相対パス</a></li>
+</ul>
+
+<h2 id="やっぱり猫の様に生きることにした">やっぱり猫の様に生きることにした</h2>
+
+<p>忙しく生きることも違った。ならもうやっぱいり猫の様に生きればいいか。</p>
+
+<p>そしてやる気が出た時にうごけばいいか。</p>
+
+<h2 id="忙しく活くることも違った">忙しく活くることも違った</h2>
+
+<p>忙しく生きてみたけどどうやらそれもちがった。</p>
+
+<p>じゃあ一体自分は何を求めているのか。</p>
+
+<p>それはより効率的で楽な生き方だ。</p>
+
+<p>だらだらと過ごす日常でも忙しい日常でもない。現状よりも生産的な日常を目標としているのが答えだ。</p>
+
+<h2 id="猫の様に生きるのは合わなかった">猫の様に生きるのは合わなかった</h2>
+
+<p>近所の猫をみて思っていたことがある。彼らの様に毎日ダラダラと生きてみたいと。</p>
+
+<p>しかし実際に毎日ダラダラと過ごしてみると何に対してもやる気が起こらなくなった。そして毎日がなんだか虚しくなった。</p>
+
+<p>だから悟った。自分は忙しい方が好きなのだと。</p>
+
+<p>なので忙しく生きてみようと思う。成長もするし。</p>
+
+<p><br /></p>
+
+<h2 id="jekyllで新しいファイルを作成した時にリンクさせる方法">jekyllで新しいファイルを作成した時にリンクさせる方法</h2>
+
+<p>「〇〇.md」のファイルを作成したが正しく読み込まれない</p>
+<ul>
+  <li>解決方法
+    <ul>
+      <li>原因
+        <ul>
+          <li>baseurlが設定されている</li>
+        </ul>
+      </li>
+      <li>相対パスを使う</li>
+      <li>relative_urlフィルターを使う
+        <ul>
+          <li>baseurlや他の設定を考慮したリンクを作成</li>
+        </ul>
+      </li>
+      <li>コード例
+        <ul>
+          <li><a href="/tablg/memo/october/">October</a></li>
+          <li>コードはdefault.htmlに記入</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="絶対パス相対パス">絶対パス、相対パス</h2>
+<ul>
+  <li>絶対パス
+    <ul>
+      <li>完全なURLを使用</li>
+    </ul>
+  </li>
+  <li>相対パス
+    <ul>
+      <li>現在位置から相対的にリンクを指定</li>
+    </ul>
+  </li>
+</ul>
+
+  </main>
+  <footer class="container">
+    <p>&copy; 2024 My Custom Blog</p>
+  </footer>
+  <script src="/tablg/js/memoMenu.js"></script>
+</body>
+</html>

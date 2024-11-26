@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/tablg/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tablg/" rel="alternate" type="text/html" /><updated>2024-11-03T17:01:51+09:00</updated><id>http://localhost:4000/tablg/feed.xml</id><title type="html">My Custom Blog</title><subtitle>A simple custom blog created with Jekyll</subtitle><entry><title type="html">jekyllによるサイト運営</title><link href="http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="jekyllによるサイト運営" /><published>2024-11-03T01:53:04+09:00</published><updated>2024-11-03T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll-copy.html"><![CDATA[<h3 id="jekyllでサイトを作る">jekyllでサイトを作る</h3>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/tablg/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/tablg/" rel="alternate" type="text/html" /><updated>2024-11-26T17:47:47+09:00</updated><id>http://localhost:4000/tablg/feed.xml</id><title type="html">My Custom Blog</title><subtitle>A simple custom blog created with Jekyll</subtitle><entry><title type="html">外国人が好きな日本の飲食店はチェーン店</title><link href="http://localhost:4000/tablg/jekyll/update/2024/11/26/foreiger-like-yoshinoya.html" rel="alternate" type="text/html" title="外国人が好きな日本の飲食店はチェーン店" /><published>2024-11-26T01:53:04+09:00</published><updated>2024-11-26T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/11/26/foreiger-like-yoshinoya</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/11/26/foreiger-like-yoshinoya.html"><![CDATA[<p><strong>目次</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#チェーン店であっても日本食はかなり美味しい" id="markdown-toc-チェーン店であっても日本食はかなり美味しい">チェーン店であっても日本食はかなり美味しい</a></li>
+</ul>
+
+<p>旅行に来た外国人が好きな飲食店はチェーン店が多いです。</p>
+
+<p>少し不思議な事ですが彼らはそれで十分に満足して食事を済ませます。</p>
+
+<p>海外の人に話をしてるとラーメン屋に行くなら一蘭だと言っています。</p>
+
+<p>なぜ彼らはわざわざチェーン店に行こうとするのでしょうか。</p>
+
+<p><br /></p>
+
+<h2 id="チェーン店であっても日本食はかなり美味しい">チェーン店であっても日本食はかなり美味しい</h2>
+
+<p>理由を箇条書きしていきます</p>
+
+<ul>
+  <li>チェーン店であっても日本食はかなり美味しい</li>
+  <li></li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[目次]]></summary></entry><entry><title type="html">jekyllによるサイト運営</title><link href="http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll-copy.html" rel="alternate" type="text/html" title="jekyllによるサイト運営" /><published>2024-11-03T01:53:04+09:00</published><updated>2024-11-03T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll%20copy</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/11/03/welcome-to-jekyll-copy.html"><![CDATA[<h3 id="jekyllでサイトを作る">jekyllでサイトを作る</h3>
 <p>jekyllとはrubyで書かれた静的サイトジェネレーター。これにより文章をより簡単に書くことができるようになりました。文章はmarkdown記法が可能です。</p>
 
 <p>iPhoneのメモでも使える記入方法です。</p>
@@ -101,7 +123,132 @@
 
 <ul>
   <li>! [ 代替テキスト ] (画像URL )</li>
-</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[jekyllでサイトを作る jekyllとはrubyで書かれた静的サイトジェネレーター。これにより文章をより簡単に書くことができるようになりました。文章はmarkdown記法が可能です。]]></summary></entry><entry><title type="html">jekyll,minimaの編集方法</title><link href="http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="jekyll,minimaの編集方法" /><published>2024-10-28T01:53:04+09:00</published><updated>2024-10-28T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll.html"><![CDATA[<h3 id="minimaで出来上がったサイトを編集するには">minimaで出来上がったサイトを編集するには</h3>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[jekyllでサイトを作る jekyllとはrubyで書かれた静的サイトジェネレーター。これにより文章をより簡単に書くことができるようになりました。文章はmarkdown記法が可能です。]]></summary></entry><entry><title type="html">最強生物クマムシ</title><link href="http://localhost:4000/tablg/jekyll/update/2024/11/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="最強生物クマムシ" /><published>2024-11-02T01:53:04+09:00</published><updated>2024-11-02T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/11/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/11/02/welcome-to-jekyll.html"><![CDATA[<h3 id="最強生物クマムシについて">最強生物クマムシについて</h3>
+<ul>
+  <li>頭部と最後部からなる生物
+    <ul>
+      <li>祖先からそれだけを受け継いだ</li>
+      <li>生存するための最適な姿</li>
+    </ul>
+  </li>
+  <li>宇宙でも生きられる</li>
+  <li>乾燥して仮死状態となれる
+    <ul>
+      <li>水を受けると復活する</li>
+      <li>頻繁に仮死状態となる
+        <ul>
+          <li>苔にいた場合乾燥している時は仮死、雨が降ると復活</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>放射線にあたって生きていられるかまだ不明
+    <ul>
+      <li>なぜ放射線に耐性をもっているのか
+        <ul>
+          <li>地球上では放射線の当たる場所は殆どない</li>
+          <li>乾燥に耐える力が放射線耐性を作った説がある</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>火山、深海、砂漠あらゆる場所に生息している</li>
+  <li>1mmより小さい</li>
+  <li>
+    <p>ディーサップという耐性タンパク質をもっている</p>
+  </li>
+  <li>クマムシの仲間
+    <ul>
+      <li>カギムシ</li>
+    </ul>
+  </li>
+  <li>クマムシとカギムシの祖先
+    <ul>
+      <li>オニコニクティオン
+        <ul>
+          <li>５億年前に生きたいた</li>
+          <li>クマムシより数倍大きい</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[最強生物クマムシについて 頭部と最後部からなる生物 祖先からそれだけを受け継いだ 生存するための最適な姿]]></summary></entry><entry><title type="html">【マンガ】ナルトとサスケの友情</title><link href="http://localhost:4000/tablg/jekyll/update/2024/11/01/jekyll.html" rel="alternate" type="text/html" title="【マンガ】ナルトとサスケの友情" /><published>2024-11-01T01:53:04+09:00</published><updated>2024-11-01T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/11/01/jekyll</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/11/01/jekyll.html"><![CDATA[<p>こんにちはtakaです。
+マンガNRUTOのナルトとサスケの友情について書いていきます。
+まず結論を言うとナルトとサスケの友情は最高です。何も言う事ありません。</p>
+
+<p>本当にいい友情だなと思ったのは最終巻で二人が衝突した時です。</p>
+
+<h2 id="サスケはナルトを殺そうとする">サスケはナルトを殺そうとする</h2>
+
+<p>サスケはナルトを殺そうとします。</p>
+
+<p>ラスボスのカグヤをナルト、サスケ、サクラ、etcでなんとか倒すんですがそれで終わりません。</p>
+
+<p>サスケは大きな目的があるからです。</p>
+
+<p>それがナルトを殺すという目的。</p>
+
+<p>そうする事で感情に流されない合理的な判断ができる心を完成させようとしているのです。</p>
+
+<p>そして合理的で冷たい心を手に入れたなら、サスケは自分が支配する持続可能で平和な世の中をつくれると思っています。</p>
+
+<h2 id="ナルトはサスケを殺さずに止めたい">ナルトはサスケを殺さずに止めたい</h2>
+
+<p>ナルトはサスケを殺そうとはしません。</p>
+
+<p>じゃあどうしたいのか？</p>
+
+<p>サスケを殴って止めようとします。</p>
+
+<p>何がなんでも止める。一発本気で殴ってダメなら、わかるまで、気持ちが伝わるまで殴る。</p>
+
+<p>そんな感じです。</p>
+
+<p>まあよくあるヤンキーマンガの話と似た状況ですね。</p>
+
+<h2 id="ナルト以外の誰もサスケを止められない">ナルト以外の誰もサスケを止められない</h2>
+
+<p>ラスボスのカグヤが封印された後はナルト、サスケの二人より強い生物はいません。</p>
+
+<p>この二人は世界を蹂躙する実力をもっています。</p>
+
+<p>ナルトは皆んなと世界のあり方を考えていこうとします</p>
+
+<p>サスケは自分が神にも似た絶対的存在となって世界を征服下において平和な世をつくろうとする。</p>
+
+<p>殺し合いの戦いの勝者が自分の希望を叶える事ができるわけです。</p>
+
+<p>でも殺しに来ているサスケをナルトは殺そうと思っていません。</p>
+
+<p>ナルトはサスケを殺さないでどうしたら止める事ができるのか。</p>
+
+<h2 id="結末">結末</h2>
+
+<p>結末はナルトが勝ちます。</p>
+
+<p>一応。正確には相打ちで二人とも傷と疲れで動けなくなったですが</p>
+
+<p>ただサスケが言葉にして負けを認めます。</p>
+
+<p>これって男同士でしかわからないかもしれないんですが、ナルトとサスケがお互いを認め合った瞬間です。</p>
+
+<p>これ以前にお互いを認め合ってはいましたが、何がなんでも自分の意見を通したい時があります。</p>
+
+<p>それは何度も訪れます。そして１つまた１つと今までにサスケの心に絡まっていた糸を解いていく感じです。</p>
+
+<p>自分でも間違った道だと思いながらも止まる事ができない時です。</p>
+
+<p>サスケは自分自身の行動を止める事ができなかった。</p>
+
+<p>そんな自分を止めてくれるのは多分ナルトだと信じていました。</p>
+
+<p>ナルトはそれをやってのけてくれました。</p>
+
+<p>これで壊れかけた友情はまた元に戻ったというわけです。</p>
+
+<p>そして友達の話なら聞く。サスケは考えをあらためるキッカケができたわけです。</p>
+
+<p>こんな２人の友情はとてもいいものだし、だからこそこんなエピソードを描いているNARUTOというマンガは面白いです。</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[こんにちはtakaです。 マンガNRUTOのナルトとサスケの友情について書いていきます。 まず結論を言うとナルトとサスケの友情は最高です。何も言う事ありません。]]></summary></entry><entry><title type="html">jekyll,minimaの編集方法、ターミナル基本コマンド</title><link href="http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll.html" rel="alternate" type="text/html" title="jekyll,minimaの編集方法、ターミナル基本コマンド" /><published>2024-10-28T01:53:04+09:00</published><updated>2024-10-28T01:53:04+09:00</updated><id>http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/tablg/jekyll/update/2024/10/28/welcome-to-jekyll.html"><![CDATA[<h3 id="minimaで出来上がったサイトを編集するには">minimaで出来上がったサイトを編集するには</h3>
 <ul>
   <li>いくつかのファイルを作成、編集する必要がある
     <ul>
@@ -123,295 +270,31 @@
       <li>index.markdownの編集</li>
     </ul>
   </li>
-</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[minimaで出来上がったサイトを編集するには いくつかのファイルを作成、編集する必要がある ルートディレクトリにフォルダ、ファイルを追加する _layouts(フォルダ) default.html post.html assets/css（フォルダ） styles.css index.markdownの編集]]></summary></entry><entry><title type="html">memo</title><link href="http://localhost:4000/tablg/2024/10/27/welcome.html" rel="alternate" type="text/html" title="memo" /><published>2024-10-27T01:53:03+09:00</published><updated>2024-10-27T01:53:03+09:00</updated><id>http://localhost:4000/tablg/2024/10/27/welcome</id><content type="html" xml:base="http://localhost:4000/tablg/2024/10/27/welcome.html"><![CDATA[<p>目次</p>
-<ul id="markdown-toc">
-  <li><a href="#macにjekyllをインストールする方法" id="markdown-toc-macにjekyllをインストールする方法">macにjekyllをインストールする方法</a></li>
-  <li><a href="#若い人は短く分かりやすく簡単な言葉を使う" id="markdown-toc-若い人は短く分かりやすく簡単な言葉を使う">若い人は短く、分かりやすく、簡単な言葉を使う</a></li>
-  <li><a href="#macの用語" id="markdown-toc-macの用語">macの用語</a></li>
-  <li><a href="#finderでルートディレクトリにアクセスする方法" id="markdown-toc-finderでルートディレクトリにアクセスする方法">Finderでルートディレクトリにアクセスする方法</a></li>
-  <li><a href="#用語" id="markdown-toc-用語">用語</a></li>
-  <li><a href="#githubでサイト公開する" id="markdown-toc-githubでサイト公開する">Githubでサイト公開する</a></li>
-  <li><a href="#jekyll" id="markdown-toc-jekyll">jekyll</a></li>
-  <li><a href="#githubで公開する方法" id="markdown-toc-githubで公開する方法">githubで公開する方法</a></li>
 </ul>
 
-<h2 id="macにjekyllをインストールする方法">macにjekyllをインストールする方法</h2>
-<ol>
-  <li>ターミナルを開く：
-    <ul>
-      <li>アプリケーション → ユーティリティ → ターミナル を選択します。</li>
-    </ul>
-  </li>
-  <li>Homebrewのインストール：
-    <ul>
-      <li>次のコマンドをターミナルに入力します：bin/bash -c “$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”</li>
-      <li></li>
-      <li>インストール中に「Press RETURN/ENTER to continue」と表示されたら、Enterキーを押します。</li>
-      <li>Xcodeのライセンスに同意する必要がある場合は、次のコマンドを実行します：sudo xcodebuild -license</li>
-      <li></li>
-      <li>スペースキーでスクロールし、最後に「agree」と入力してライセンスに同意します。</li>
-    </ul>
-  </li>
-  <li>Homebrewのバージョン確認：
-    <ul>
-      <li>インストールが完了したら、次のコマンドでバージョンを確認します：brew -v</li>
-      <li></li>
-    </ul>
-  </li>
-  <li>Jekyllのインストール：
-    <ul>
-      <li>Homebrewが正しくインストールされたら、次のコマンドでRubyをインストールします：brew install ruby</li>
-      <li>その後、JekyllとBundlerをインストールします：gem install bundler jekyll</li>
-    </ul>
-  </li>
-  <li>インストール確認：
-    <ul>
-      <li>Jekyllのインストールが完了したら、以下のコマンドでバージョンを確認します：jekyll -v</li>
-    </ul>
-  </li>
-</ol>
+<h2 id="ターミナル操作">ターミナル操作</h2>
 
-<h2 id="若い人は短く分かりやすく簡単な言葉を使う">若い人は短く、分かりやすく、簡単な言葉を使う</h2>
+<p>ターミナル基本コマンド</p>
 <ul>
-  <li>例え：やば、り、うぃーす</li>
-  <li>ある意味最も優れたコミュニケーション<br />
-<br /></li>
-</ul>
-
-<h2 id="macの用語">macの用語</h2>
-<ul>
-  <li>ディレクトリ
-    <ul>
-      <li>フォルダ=ディレクトリ</li>
-      <li>macではフォルダをディレクトリと呼ぶ<br />
-<br /></li>
-    </ul>
-  </li>
-  <li>ホームディレクトリ
-    <ul>
-      <li>ホームの上にあるメニューバー「移動」、「ホーム」を選択
-        <ul>
-          <li>ホームディレクトリが表示される</li>
-        </ul>
-      </li>
-      <li>デスクトップにはない</li>
-      <li>デスクトップはホームディレクトリ内のディレクトリ<br />
-<br /></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="finderでルートディレクトリにアクセスする方法">Finderでルートディレクトリにアクセスする方法</h2>
-<ol>
-  <li>Finderを開きます。</li>
-  <li>メニューバーの「移動」をクリック。</li>
-  <li>「フォルダへ移動」を選択。</li>
-  <li>表示されたウィンドウに / と入力して「移動」をクリック。</li>
-</ol>
-
-<h2 id="用語">用語</h2>
-<ul>
-  <li>パソコン用語のルートとは
-    <ul>
-      <li>ほぼ全ての操作可能な権限</li>
-      <li>rootと書く<br />
-<br /></li>
-    </ul>
-  </li>
-  <li>ルートディレクトリ
-    <ul>
-      <li>最上層のディレクトリ</li>
-      <li>デスクトップ上には表示されない</li>
-      <li>ただFinderで確認可能</li>
-      <li>システムファイルなので触らないほうがいい<br />
-<br /></li>
-    </ul>
-  </li>
-  <li>エディタ
-    <ul>
-      <li>データを編集するソフト<br />
-<br /></li>
-    </ul>
-  </li>
-  <li>ターミナル
-    <ul>
-      <li>コンピューターの設定、ファイル操作のできるソフト
-        <ul>
-          <li>pwd
-            <ul>
-              <li>作業中のディレクトリの位置を表示</li>
-            </ul>
-          </li>
-          <li>ls
-            <ul>
-              <li>ファイルやディレクトリの一覧を表示</li>
-            </ul>
-          </li>
-          <li>エスケープ
-            <ul>
-              <li>抜ける、脱出する</li>
-            </ul>
-          </li>
-          <li>nano
-            <ul>
-              <li>⌘,sで保存</li>
-              <li>⌘,wで終了</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>因果関係</p>
-<ul>
-  <li>原因とそれによって生じる結果</li>
-  <li>「因」と「果」
-相関関係</li>
-  <li>変数間に関係が見れるが、偶然かもだし、要員があるかもしれない
-    <ul>
-      <li>変数間とは
-        <ul>
-          <li>例え：身長と体重は異なる変数</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
-<p>メタデータ</p>
-<ul>
-  <li>データの中のデータ</li>
-  <li>例え：写真の解像度や大きさなどのデータ</li>
-</ul>
-
-<p>ビルド</p>
-<ul>
-  <li>構築する</li>
-</ul>
-
-<p>index</p>
-<ul>
-  <li>指標、見出し、索引</li>
-  <li>データを高速化する索引データ</li>
-</ul>
-
-<p>リポジトリ</p>
-<ul>
-  <li>貯蔵庫、倉庫</li>
-</ul>
-
-<p>ジェネレーター</p>
-<ul>
-  <li>自動的にコードやコンテンツを生成する仕組み</li>
-</ul>
-
-<p>パッケージ</p>
-<ul>
-  <li>商品、デザイン</li>
-</ul>
-
-<p>ライブラリ</p>
-<ul>
-  <li>資料</li>
-</ul>
-
-<p>gem</p>
-<ul>
-  <li>Rudyのパッケージやライブラリ</li>
-</ul>
-
-<p>bundler</p>
-<ul>
-  <li>Rugyのライブラリやgemの依存関係を管理するツール</li>
-</ul>
-
-<p>プロパティ</p>
-<ul>
-  <li>スタイルを指定するための名前</li>
-</ul>
-
-<p><br /></p>
-
-<h2 id="githubでサイト公開する">Githubでサイト公開する</h2>
-<ul>
-  <li>ルートディレクトリの中身をアップロード</li>
-  <li>セッティング、ページと進むと公開されている
-    <ul>
-      <li>もし表示されていない場合には、「Branch」の項目が「None」となっていると思いますので、これをデフォルトブランチ（リポジトリが作成された時期に応じて、「master」または「main」）に変更して「Save」ボタンを押すことでURLが表示されます。<br />
-<br /></li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="jekyll">jekyll</h2>
-<ul>
-  <li>Rudyのライブラリとして動作する静的ジェネレーター</li>
-  <li>デスクトップにアイコンは表示されない</li>
-  <li>Rudyのgemとしてインストールされる</li>
-  <li>ターミナルからコマンドを実行する</li>
-  <li>再起動
-    <ul>
-      <li>ターミナルを開く</li>
-      <li>cd ~/Desktop/markdown\ -\ blogと入力で停止</li>
-      <li>jekyll serveで再起動</li>
-    </ul>
-  </li>
-  <li>サイトの作り方
-    <ul>
-      <li>デスクトップにファイル作成
-        <ul>
-          <li>ファイルの中
-            <ul>
-              <li>index.md</li>
-              <li>_layouts
-                <ul>
-                  <li>default.html</li>
-                </ul>
-              </li>
-              <li>assets
-                <ul>
-                  <li>css
-                    <ul>
-                      <li>style.css</li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-      <li>それぞれにコード入力</li>
-    </ul>
-  </li>
-  <li>ローカルでのサイト確認方法
-    <ul>
-      <li>ターミナルを開く</li>
-      <li>cd ~/“ファイルのある場所”を入力してファイルに移動</li>
-      <li>jekyll buildと入力してビルド確認</li>
-      <li>jekyll serveでサーバー起動</li>
-      <li>http://127.0.0.1:4000をブラウザで入力して確認</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="githubで公開する方法">githubで公開する方法</h2>
-<ul>
-  <li>_config.ymlファイルを編集
-    <ul>
-      <li>baseurl: “ /jk “     リポジトリ名を入力</li>
-      <li>url: “https://taka012345.github.io”  GitHubユーザー名を入力</li>
-    </ul>
-  </li>
-</ul>
-
-<p>_config.ymlを編集</p>
-<ul>
-  <li>反映
-    <ul>
-      <li>jekyllを再起動する必要がある</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[目次]]></summary></entry></feed>
+  <li>pwd: 現在のディレクトリ（フォルダ）のパスを表示する。</li>
+  <li>ls: 現在のディレクトリ内のファイルとフォルダのリストを表示する。</li>
+  <li>cd [ディレクトリ名]: 指定したディレクトリに移動する（例：cd Documents）。</li>
+  <li>mkdir [フォルダ名]: 新しいフォルダを作成する（例：mkdir new_folder）。</li>
+  <li>rmdir [フォルダ名]: 空のフォルダを削除する。</li>
+  <li>rm [ファイル名]: 指定したファイルを削除する（例：rm file.txt）。</li>
+  <li>rm -r [フォルダ名]: 指定したフォルダとその中のすべてのファイルを削除する。</li>
+  <li>cp [元ファイル] [コピー先]: ファイルをコピーする（例：cp file.txt backup.txt）。</li>
+  <li>mv [元ファイル] [新しい名前]: ファイルの名前を変更または移動する（例：mv oldname.txt newname.txt）。</li>
+  <li>open [ファイル名]: 指定したファイルをデフォルトのアプリケーションで開く（例：open document.pdf）。</li>
+  <li>nano [ファイル名]: 指定したファイルをnanoエディタで開く（例：nano myfile.txt）。</li>
+  <li>clear: ターミナル画面をクリアする。
+システム情報</li>
+  <li>top: システムのプロセスやリソース使用状況を表示する。</li>
+  <li>df -h: ディスクの使用状況を表示する。</li>
+  <li>du -sh [ディレクトリ名]: 指定したディレクトリのサイズを表示する（例：du -sh Documents）。
+ネットワーク</li>
+  <li>ping [ホスト名]: 指定したホストへの接続をテストする（例：ping google.com）。</li>
+  <li>curl [URL]: 指定したURLの内容を取得する（例：curl https://example.com）。
+ヘルプ</li>
+  <li>man [コマンド名]: 指定したコマンドのマニュアルを表示する（例：man ls）。</li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[minimaで出来上がったサイトを編集するには いくつかのファイルを作成、編集する必要がある ルートディレクトリにフォルダ、ファイルを追加する _layouts(フォルダ) default.html post.html assets/css（フォルダ） styles.css index.markdownの編集]]></summary></entry></feed>
