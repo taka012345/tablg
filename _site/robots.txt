@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/tablg/sitemap.xml
+Sitemap: https://taka012345.github.io/tablg/sitemap.xml
