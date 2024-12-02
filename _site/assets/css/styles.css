@@ -102,7 +102,12 @@ header #memo-menu {
 /* リンクのスタイル：デフォルトでは下線なし */
 a {
   text-decoration: none;
-  color: #333; /* リンクの通常時の色 */
+  color: #2960ea; /* リンクの通常時の色 */
+}
+
+a:hover {
+  color: rgb(127, 145, 215); /* ホバー時の色 */
+  text-decoration: underline; /* 下線を表示 */
 }
 
 /* リンクにカーソルが乗った時に下線を表示 */

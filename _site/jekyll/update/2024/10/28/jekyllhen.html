@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jekyll,minimaの編集方法、ターミナル基本コマンド - tablg</title>
+  <link rel="stylesheet" href="/tablg/assets/css/styles.css">
+  <meta property="og:title" content="jekyll,minimaの編集方法、ターミナル基本コマンド" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:4000/tablg/jekyll/update/2024/10/28/jekyllhen.html" />
+<meta property="og:image" content="http://localhost:4000" />
+<meta property="og:site_name" content="tablg" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:card" content="summary_image" />
+<meta name="twitter:site" content="@iiyudana_taka" />
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="/tablg/">tablg</a>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="/tablg/about/">About</a></li>
+          <li><a href="javascript:void(0)" id="memo-toggle">Memo</a>
+            <ul id="memo-menu" style="display: none;">
+              <li>2024</li>
+              <li><a href="/tablg/memo/november/">November</a></li>
+              <li><a href="/tablg/memo/october/">October</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr>
+  <main class="container">
+    <article>
+  <h1 class="post-title">jekyll,minimaの編集方法、ターミナル基本コマンド</h1>
+  <p><small>更新日：2024-10-28</small></p>
+  <hr>
+  <div>
+    <p>jekyll,minimaのレイアウトを変更する方法。</p>
+
+<p><strong>目次</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#minimaで出来上がったサイトを編集するには" id="markdown-toc-minimaで出来上がったサイトを編集するには">minimaで出来上がったサイトを編集するには</a></li>
+  <li><a href="#ターミナル操作" id="markdown-toc-ターミナル操作">ターミナル操作</a></li>
+</ul>
+
+<h2 id="minimaで出来上がったサイトを編集するには">minimaで出来上がったサイトを編集するには</h2>
+<ul>
+  <li>いくつかのファイルを作成、編集する必要がある
+    <ul>
+      <li>ルートディレクトリにフォルダ、ファイルを追加する
+        <ul>
+          <li>_layouts(フォルダ)
+            <ul>
+              <li>default.html</li>
+              <li>post.html</li>
+            </ul>
+          </li>
+          <li>assets/css（フォルダ）
+            <ul>
+              <li>styles.css</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>index.markdownの編集</li>
+    </ul>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="ターミナル操作">ターミナル操作</h2>
+
+<p>ターミナル基本コマンド</p>
+<ul>
+  <li>
+    <p>ターミナルの起動方法:「⌘ + スペース」を押して「ターミナル」と入力</p>
+  </li>
+  <li>
+    <p>pwd: 現在のディレクトリ（フォルダ）のパスを表示する。</p>
+  </li>
+  <li>
+    <p>ls: 現在のディレクトリ内のファイルとフォルダのリストを表示する。</p>
+  </li>
+  <li>
+    <p>cd [ディレクトリ名]: 指定したディレクトリに移動する（例：cd Documents）。</p>
+  </li>
+  <li>
+    <p>cd ..：一つ前のディレクトリに戻る</p>
+  </li>
+  <li>
+    <p>jekyll serve:jekyllを起動</p>
+  </li>
+  <li>
+    <p>bundle exec jekyll serve：jekyllを起動</p>
+  </li>
+  <li>
+    <p>mkdir [フォルダ名]: 新しいフォルダを作成する（例：mkdir new_folder）。</p>
+  </li>
+  <li>
+    <p>rmdir [フォルダ名]: 空のフォルダを削除する。</p>
+  </li>
+  <li>
+    <p>rm [ファイル名]: 指定したファイルを削除する（例：rm file.txt）。</p>
+  </li>
+  <li>
+    <p>rm -r [フォルダ名]: 指定したフォルダとその中のすべてのファイルを削除する。</p>
+  </li>
+  <li>
+    <p>cp [元ファイル] [コピー先]: ファイルをコピーする（例：cp file.txt backup.txt）。</p>
+  </li>
+  <li>
+    <p>mv [元ファイル] [新しい名前]: ファイルの名前を変更または移動する（例：mv oldname.txt newname.txt）。</p>
+  </li>
+  <li>
+    <p>open [ファイル名]: 指定したファイルをデフォルトのアプリケーションで開く（例：open document.pdf）。</p>
+  </li>
+  <li>
+    <p>nano [ファイル名]: 指定したファイルをnanoエディタで開く（例：nano myfile.txt）。</p>
+  </li>
+  <li>
+    <p>clear: ターミナル画面をクリアする。</p>
+  </li>
+</ul>
+
+<p>システム情報</p>
+<ul>
+  <li>
+    <p>top: システムのプロセスやリソース使用状況を表示する。</p>
+  </li>
+  <li>
+    <p>df -h: ディスクの使用状況を表示する。</p>
+  </li>
+  <li>
+    <p>du -sh [ディレクトリ名]: 指定したディレクトリのサイズを表示する（例：du -sh Documents）。</p>
+  </li>
+</ul>
+
+<p>ネットワーク</p>
+<ul>
+  <li>
+    <p>ping [ホスト名]: 指定したホストへの接続をテストする（例：ping google.com）。</p>
+  </li>
+  <li>
+    <p>curl [URL]: 指定したURLの内容を取得する（例：curl https://example.com）。</p>
+  </li>
+</ul>
+
+<p>ヘルプ</p>
+<ul>
+  <li>man [コマンド名]: 指定したコマンドのマニュアルを表示する（例：man ls）。</li>
+</ul>
+
+<p><br /></p>
+
+  </div>
+</article>
+
+  </main>
+  <footer class="container">
+    <p>&copy; 2024 My Custom Blog</p>
+  </footer>
+  <script src="/tablg/js/memoMenu.js"></script>
+</body>
+</html>
