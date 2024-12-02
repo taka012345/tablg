@@ -1,67 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>https://taka012345.github.io/tablg/</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/10/28/jekyllhen.html</loc>
+<lastmod>2024-10-28T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/about/</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/11/01/naruto.html</loc>
+<lastmod>2024-11-01T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/memo/november/</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/11/02/kumamusi.html</loc>
+<lastmod>2024-11-02T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/memo/october/</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/11/03/jekyll.html</loc>
+<lastmod>2024-11-03T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/28/thebeach.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/11/26/foreiger-like-yoshinoya.html</loc>
+<lastmod>2024-11-26T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/26/fyueruone.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/11/27/fyueruone.html</loc>
+<lastmod>2024-11-27T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/25/foreiger-like-yoshinoya.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/jekyll/update/2024/11/29/thebeach.html</loc>
+<lastmod>2024-11-29T01:53:04+09:00</lastmod>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/02/jekyll.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/about/</loc>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/11/01/kumamusi.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/</loc>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/10/31/naruto.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/memo/november/</loc>
 </url>
 <url>
-  <loc>https://taka012345.github.io/tablg/jekyll/update/2024/10/27/jekyllhen.html</loc>
-  <lastmod>2024-11-30T14:16:38+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>http://localhost:4000/tablg/memo/october/</loc>
 </url>
-
-
+<url>
+<loc>http://localhost:4000/tablg/google93073d7485776936.html</loc>
+<lastmod>2024-11-15T01:55:25+09:00</lastmod>
+</url>
 </urlset>
