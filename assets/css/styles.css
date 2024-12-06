@@ -35,6 +35,7 @@
   color: #333;
 }
 
+
 /* サイト全体の幅を制限する */
 .container {
   max-width: 800px; /* サイトの幅を狭く設定 */
@@ -199,4 +200,33 @@ header:after, .container:after {
     font-size: 1.2em;
   }
 }
+
+/* インラインコード */
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #dadee39b; /* Minimaテーマのデフォルト背景色 */
+  color: #000000; /* Jekyllのリンクカラー */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* コードブロック */
+pre {
+  background-color: #eaecefca; /* コードブロックの背景色を透明に */
+  color: #000000; /* 文字色を黒に */
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto; /* 横スクロール対応 */
+}
+
+/* コードブロック内のインラインコード */
+pre code {
+  background-color: transparent; /* インラインコードに背景色を適用しない */
+  color: inherit; /* 親要素(pre)の文字色を継承 */
+  padding: 0; /* 不要な余白を削除 */
+  border-radius: 0; /* ボーダーを削除 */
+}
+
+
+
 

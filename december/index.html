@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2024 December - tablg</title>
+  <link rel="stylesheet" href="/tablg/assets/css/styles.css">
+  <meta property="og:title" content="2024 December" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:4000/tablg/memo/december/" />
+<meta property="og:image" content="http://localhost:4000" />
+<meta property="og:site_name" content="tablg" />
+<meta property="og:locale" content="ja_JP" />
+<meta name="twitter:card" content="summary_image" />
+<meta name="twitter:site" content="@iiyudana_taka" />
+
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header-left">
+        <a href="/tablg/">tablg</a>
+      </div>
+      <nav class="header-right">
+        <ul>
+          <li><a href="/tablg/about/">About</a></li>
+          <li><a href="javascript:void(0)" id="memo-toggle">Memo</a>
+            <ul id="memo-menu" style="display: none;">
+              <li>2024</li>
+              <li><a href="/tablg/memo/december/">December</a></li>
+              <li><a href="/tablg/memo/november/">November</a></li>
+              <li><a href="/tablg/memo/october/">October</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <hr>
+  <main class="container">
+    <p>※このページは開発者向けのMemoです</p>
+
+<h3 id="december">december</h3>
+
+<p><strong>目次</strong></p>
+<ul id="markdown-toc">
+  <li><a href="#december" id="markdown-toc-december">december</a></li>
+  <li><a href="#-jekyll-minimaのスタイルを残しつつ編集する方法jekyllのdl後からの編集方法記入" id="markdown-toc--jekyll-minimaのスタイルを残しつつ編集する方法jekyllのdl後からの編集方法記入">【 jekyll 】minimaのスタイルを残しつつ編集する方法（jekyllのDL後からの編集方法記入）</a></li>
+  <li><a href="#-jekyll-コードブロックにコードを記入する時-raw--と--endraw-を使う必要がある" id="markdown-toc--jekyll-コードブロックにコードを記入する時-raw--と--endraw-を使う必要がある">【 jekyll 】コードブロックにコードを記入する時{% raw %} と {% endraw %}を使う必要がある</a></li>
+  <li><a href="#-jekyll--raw--と--endraw-を表示する方法" id="markdown-toc--jekyll--raw--と--endraw-を表示する方法">【 jekyll 】{% raw %} と {% endraw %}を表示する方法</a></li>
+  <li><a href="#専門用語" id="markdown-toc-専門用語">専門用語</a></li>
+  <li><a href="#-jeykll-インラインコードコードブロックを有効にする" id="markdown-toc--jeykll-インラインコードコードブロックを有効にする">【 jeykll 】インラインコード、コードブロックを有効にする</a></li>
+  <li><a href="#-jekyll-プラグインでサイトマップを作成する" id="markdown-toc--jekyll-プラグインでサイトマップを作成する">【 jekyll 】プラグインでサイトマップを作成する</a></li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="-jekyll-minimaのスタイルを残しつつ編集する方法jekyllのdl後からの編集方法記入">【 jekyll 】minimaのスタイルを残しつつ編集する方法（jekyllのDL後からの編集方法記入）</h2>
+
+<p>minimaのレイアウトはgemで行われている。</p>
+
+<p>なのでminimaを編集したいならそのレイアウトファイルやcssのファイルをコピーしてそれを編集することで可能となる</p>
+
+<p>Jekyllでは、_layouts や assets/css のファイルを適切にコピーしてプロジェクト内に配置することで、Markdownの機能（たとえば、インラインコードやコードブロック）が正しく反映されるようになります。</p>
+
+<p>Gemのレイアウトや CSS ファイルをコピー。必要なファイルをプロジェクトにコピーします</p>
+
+<ul>
+  <li>
+    <p>_layouts/default.html（全体の基本レイアウト）</p>
+  </li>
+  <li>
+    <p>_layouts/post.html（投稿用のレイアウト）</p>
+  </li>
+  <li>
+    <p>assets/css/style.scss（スタイルシート）</p>
+  </li>
+  <li>
+    <p>必要に応じて _sass/minima/（部分スタイルファイル）</p>
+  </li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir _layouts
+cp $(bundle show minima)/_layouts/default.html _layouts/
+cp $(bundle show minima)/_layouts/post.html _layouts/
+</code></pre></div></div>
+
+<ul>
+  <li>CSS のコピー Gem の assets/css/style.scss をプロジェクトの assets/css/ フォルダにコピーします。</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir -p assets/css
+cp $(bundle show minima)/assets/css/style.scss assets/css/
+</code></pre></div></div>
+
+<ul>
+  <li>Sass の依存ファイルのコピー 必要に応じて _sass/minima/ ディレクトリもコピーします。</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkdir -p _sass/minima
+cp -R $(bundle show minima)/_sass/minima _sass/
+</code></pre></div></div>
+<p><br /></p>
+
+<h2 id="-jekyll-コードブロックにコードを記入する時-raw--と--endraw-を使う必要がある">【 jekyll 】コードブロックにコードを記入する時{% raw %} と {% endraw %}を使う必要がある</h2>
+
+<p>{% raw %} と {% endraw %}を使うと、その間に含まれるLiquidタグやHTMLタグがJekyllによって処理されず、文字列としてそのまま表示されます</p>
+
+<p>このコードを書かなければプログラムがコードを処理して余分な文字が出力されます</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{ % raw % }
+ここにコードを書き込む
+{ % endraw % }
+
+※raw,endrowの%と{}前後のスペースは削除する
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h2 id="-jekyll--raw--と--endraw-を表示する方法">【 jekyll 】{% raw %} と {% endraw %}を表示する方法</h2>
+<p>{% raw %} と {% endraw %}を表示するためのコード</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&amp;#123;% raw %&amp;#125;  &amp;#123;% endraw %&amp;#125;
+</code></pre></div></div>
+
+<p>そして&#38;#123; &#38;#125;を表示するためのコード</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&amp;#38;#38;#123; &amp;#38;#38;#125;
+</code></pre></div></div>
+
+<p>さらに&#38;#38;#38;#123;と表示するためのコード</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&amp;#38;#38;#38;#123;　&amp;#38;#38;#38;#125;
+</code></pre></div></div>
+
+<p>&#38;#123;とは</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>HTML の 文字参照 (character reference) で、特定の文字を表示させるために使われます。
+これは、HTML における {（左中括弧）を表します。
+
+&amp;#123; は {（左中括弧）を意味します。
+&amp;#125; は }（右中括弧）を意味します。
+</code></pre></div></div>
+
+<p>&#38;#38;とは</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&amp;#38; は文字 &amp; をHTML文中で安全に表示する方法
+
+特殊文字としての &amp; を誤解されないようにエスケープして使います。
+
+結論、説明読んだけどよくわからん
+</code></pre></div></div>
+
+<p>default.htmlにコードを入力</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="{{ site.lang | default: 'en' }}"&gt;
+  &lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;title&gt;{{ page.title | escape }} | {{ site.title | escape }}&lt;/title&gt;
+    &lt;link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"&gt;
+    {% include head.html %}
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt;
+      {% include header.html %}
+    &lt;/header&gt;
+    &lt;main class="page-content" aria-label="Content"&gt;
+      {{ content }}
+    &lt;/main&gt;
+    &lt;footer&gt;
+      {% include footer.html %}
+    &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h2 id="専門用語">専門用語</h2>
+
+<p>フロントマターとは</p>
+
+<ul>
+  <li>YAML形式で記述されているページ</li>
+</ul>
+
+<p>コードブロック（バッククォート）とは</p>
+
+<ul>
+  <li>コードなどの文字を分けて表示させることができる</li>
+</ul>
+
+<p>Liquidとは</p>
+
+<ul>
+  <li>jekyllのテンプレートエンジン。動的にコンテンツを生成する。</li>
+</ul>
+
+<p>拡張機能とは</p>
+
+<ul>
+  <li>プログラムに追加機能をすること</li>
+</ul>
+
+<p>jekyll sassとは</p>
+
+<ul>
+  <li>jekyllに組み込まれているcssの拡張機能</li>
+</ul>
+
+<p>webでのタグ</p>
+
+<ul>
+  <li>情報の位置付けや分類する文字列</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="-jeykll-インラインコードコードブロックを有効にする">【 jeykll 】インラインコード、コードブロックを有効にする</h2>
+
+<p>cssにコードを追加する</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/* インラインコード */
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #f5f5f5; /* Minimaテーマのデフォルト背景色 */
+  color: #d63384; /* Jekyllのリンクカラー */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* コードブロック */
+pre {
+  background-color: #f5f5f5; /* Minimaテーマの背景色 */
+  color: #333; /* ベース文字色 */
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto; /* 横スクロール対応 */
+}
+
+pre code {
+  font-family: 'Courier New', monospace;
+  background-color: inherit; /* 親要素(pre)の背景色を継承 */
+  color: inherit; /* 親要素(pre)の文字色を継承 */
+}
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h2 id="-jekyll-プラグインでサイトマップを作成する">【 jekyll 】プラグインでサイトマップを作成する</h2>
+
+<ul>
+  <li>
+    <p>ディレクトリのGemfileに<code class="language-plaintext highlighter-rouge">gem "jekyll-sitemap"</code>を挿入</p>
+  </li>
+  <li>
+    <p>ターミナルに<code class="language-plaintext highlighter-rouge">bundle install</code>と入力してインストール</p>
+  </li>
+  <li>
+    <p>_config.ymlのpluginsに<code class="language-plaintext highlighter-rouge">jekyll-sitemap</code>を挿入</p>
+  </li>
+  <li>
+    <p>ターミナルに<code class="language-plaintext highlighter-rouge">jekyll serve</code>で再起動</p>
+  </li>
+  <li>
+    <p>_siteにsitemap.xmlが作成される</p>
+  </li>
+  <li>
+    <p>ルートディレクトリにsitemap.xmlを作成して_siteのsitemap.xmlの内容をコピー</p>
+  </li>
+  <li>
+    <p>githubにUP</p>
+  </li>
+  <li>
+    <p>GoogleSearchConsoleからサイトマップが適応されるか確認</p>
+  </li>
+</ul>
+
+  </main>
+  <footer class="container">
+    <p>&copy; 2024 My Custom Blog</p>
+  </footer>
+  <script src="/tablg/js/memoMenu.js"></script>
+</body>
+</html>
