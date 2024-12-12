@@ -166,7 +166,7 @@ bundler
     * cd ~/“ファイルのある場所”を入力してファイルに移動。
     もくしは'cd [ファイル名]'を入力してファイルに移動
     * jekyll buildと入力してビルド確認
-    * jekyll serveでサーバー起動
+    * `jekyll serve`でサーバー起動、もしくは`bundle exec jekyll serve`
     * [http://127.0.0.1:4000](http://127.0.0.1:4000)とブラウザで入力して確認
 
 <br>
